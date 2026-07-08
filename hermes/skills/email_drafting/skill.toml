@@ -1,0 +1,9 @@
+[skill]
+name = "email_drafting"
+version = "0.1.0"
+description = "Drafts an email given context, tone, and recipient information."
+entrypoint = "hermes.skills.email_drafting.skill:EmailDraftingSkill"
+
+[requirements]
+capabilities = ["reasoning"]
+tools = []

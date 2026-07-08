@@ -1,0 +1,9 @@
+[skill]
+name = "image_generation"
+version = "0.1.0"
+description = "Generates an image from a text prompt."
+entrypoint = "hermes.skills.image_generation.skill:ImageGenerationSkill"
+
+[requirements]
+capabilities = ["image_generation"]
+tools = []

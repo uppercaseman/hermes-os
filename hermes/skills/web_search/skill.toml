@@ -1,0 +1,9 @@
+[skill]
+name = "web_search"
+version = "0.1.0"
+description = "Searches the web and returns relevant results/snippets for a query."
+entrypoint = "hermes.skills.web_search.skill:WebSearchSkill"
+
+[requirements]
+capabilities = ["browser_automation", "reasoning"]
+tools = []

@@ -1,0 +1,9 @@
+[skill]
+name = "document_analysis"
+version = "0.1.0"
+description = "Extracts structure, summaries, and key facts from a document."
+entrypoint = "hermes.skills.document_analysis.skill:DocumentAnalysisSkill"
+
+[requirements]
+capabilities = ["reasoning", "vision", "file_storage"]
+tools = []

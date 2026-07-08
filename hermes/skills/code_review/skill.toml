@@ -1,0 +1,9 @@
+[skill]
+name = "code_review"
+version = "0.1.0"
+description = "Reviews a code diff or file for correctness, style, and simplification opportunities."
+entrypoint = "hermes.skills.code_review.skill:CodeReviewSkill"
+
+[requirements]
+capabilities = ["reasoning", "code_generation"]
+tools = []
